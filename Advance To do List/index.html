@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width ,intial-width=1.0" />
+    <title>Advance To Do List</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+      integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+
+  <body>
+    <div class="toolbox-cnt">
+      <div class="toolbox-priority-btn-cnt">
+        <div class="color redColor"></div>
+        <div class="color pinkColor"></div>
+        <div class="color lightGreenColor"></div>
+        <div class="color lightBlueColor"></div>
+      </div>
+      <div class="toolbox-action-btn-cnt">
+        <div class="add-btn">
+          <i class="fa-solid fa-plus"></i>
+        </div>
+        <div class="remove-btn">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+      </div>
+    </div>
+    <div class="task-main-cnt">
+      
+    </div>
+    <div class="modal-cnt">
+      <textarea
+        class="textarea-cnt"
+        placeholder="Enter your Task !"
+        spellcheck="false"
+      ></textarea>
+      <div class="priority-clr-cnt">
+        <div class="redColor priority-clr"></div>
+        <div class="pinkColor priority-clr"></div>
+        <div class="lightGreenColor priority-clr"></div>
+        <div class="lightBlueColor priority-clr active"></div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/shortid-dist@1.0.5/dist/shortid-2.2.13.min.js"></script>
+    <script src="./script/script.js"></script>
+  </body>
+</html>
